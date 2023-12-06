@@ -1,0 +1,10 @@
+{
+  "name": "564c30b7-70e6-4a54-a91a-b54aba2b8153",
+  "displayName": "dummy",
+  "parameters": [ {
+    "id": "geo-state",
+    "entityType": "@sys.geo-state"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}
