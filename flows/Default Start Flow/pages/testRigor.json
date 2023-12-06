@@ -1,0 +1,23 @@
+{
+  "name": "39d7289d-bcdd-4789-92c6-64be064c77c1",
+  "displayName": "testRigor",
+  "form": {
+  
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/860899160593/locations/global/collections/default_collection/dataStores/anjali-ds_1699262629666",
+      "languageCode": "en"
+    } ]
+  }
+}
